@@ -13,3 +13,7 @@
   flex-direction: row;
   gap:20px;
 }
+.todoitem{
+  display: flex;
+  gap:10px
+}

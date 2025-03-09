@@ -1,10 +1,10 @@
 import './App.css';
-import TodoList from './Todo/TodoList';
+import TodoApp from './TodoAppWithMemoization/TodoApp';
 
 function App() {
   return (
     <div id="main-content">
-      <TodoList/>
+      <TodoApp/>
     </div>
   );
 }
