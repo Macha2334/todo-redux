@@ -1,0 +1,12 @@
+*[aria-current="active"]{
+    border:2px solid bluje;
+}
+
+.active{
+    background-color: red;
+}
+.nav-bar a{
+    color:black;
+    text-decoration: none;
+    padding:5px;
+}

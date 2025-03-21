@@ -1,10 +1,16 @@
 import './App.css';
-import TodoApp from './TodoAppWithMemoization/TodoApp';
+import TodoApp from "./Todos_Context/TodoApp"
+import ParentComponent from './ForwardRefEx/ParentComp';
+import MainRouter from './RoutesExample/MainRouter';
+import { ReactNode } from 'react';
 
-function App() {
+type Props={
+  children?:ReactNode;
+}
+function App(props:Props) {
   return (
     <div id="main-content">
-      <TodoApp/>
+      {props?.children}
     </div>
   );
 }
